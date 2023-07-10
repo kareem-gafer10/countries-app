@@ -20,7 +20,7 @@ const SingleCountry = () => {
 
   return (
     <>
-      {country ? 
+      {country.length>0 ? 
         <section className="p-8 md:py-0 max-w-7xl mx-auto">
           {country.map((item) => (
             <div

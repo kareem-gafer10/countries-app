@@ -81,7 +81,7 @@ const Countries = () => {
 
   return (
     <>
-      {countries ? (
+      {countries.length>0 ? (
         <section className=" container mx-auto p-12">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between mb-10">
             <form
